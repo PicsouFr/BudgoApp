@@ -4,9 +4,9 @@
     <div class="footer-container">
         <p>&copy; <?php echo date('Y'); ?> BudgoApp — Tous droits réservés</p>
         <div class="footer-links">
-            <a href="#">Contact</a>
+            <a href="contact.php">Contact</a>
             <a href="#">Aide</a>
-            <a href="#">Mentions légales</a>
+            <a href="mentions-legales.php">Mentions légales</a>
         </div>
         <div class="socials">
             <a href="#" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
