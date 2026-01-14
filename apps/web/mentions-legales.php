@@ -1,3 +1,6 @@
+<?php
+require_once __DIR__ . '/config.php';
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -12,7 +15,7 @@
     </head>
     <body>
         <?php
-        require_once 'header.php';
+        include BASE_PATH . '/header.php';
         ?>
         <main class="legal-container">
             <h1>Mentions légales</h1>
@@ -133,7 +136,7 @@
             </section>
         </main>
         <?php
-        require_once 'footer.php';
+        include BASE_PATH . '/footer.php';
         ?>
     </body>
 </html>

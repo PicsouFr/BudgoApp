@@ -1,5 +1,8 @@
 <!-- BUDGOAPPV2/site/pages/log.php -->
 <!-- CREATED BY José -->
+<?php
+require_once __DIR__ . '/config.php';
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -14,7 +17,7 @@
     </head>
     <body>
         <?php
-        require_once 'header.php';
+        include BASE_PATH . '/header.php';
         ?>
         <main>
             <div class="page-login">
@@ -133,7 +136,7 @@
             </div>
         </main>
         <?php
-        require_once 'footer.php';
+        include BASE_PATH . '/footer.php';
         ?>
     </body>
     <script src="js/log.js"></script>
