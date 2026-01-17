@@ -155,7 +155,7 @@ def send_activation_email(to_email: str, username: str, token: str) -> None:
                     color:rgba(160,170,230,.55);
                     text-align:center;
                 ">
-                    © 2025 BudgoApp — Tous droits réservés
+                    © 2026 BudgoApp — Tous droits réservés
                 </div>
                 </td>
             </tr>
